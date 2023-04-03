@@ -1,0 +1,179 @@
+
+    
+.banner{
+    
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+    }
+    
+    h1{
+    text-align:center;
+    padding:30px;
+    color: pink;
+    
+    }
+    
+    .navbar{
+    text-align: center;
+    width: 1000px;
+    height: 60px;
+    margin: auto;
+    padding: 60px;
+    
+    }
+    
+    ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li{
+    display: inline;
+    padding: 6px;
+    }
+    
+    li a{
+    text-decoration: none;
+    color: pink;
+    font-size: 13px;
+    }
+    
+    .main{
+    color:brown;
+    font-size: 40px;
+    }
+    
+    .ashy {
+    font-size:80px;
+    height: 74px;
+    width: 94px;
+    }
+    
+    .menu{
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    padding: 30px;
+    font-size: 30px;
+    }
+    
+    ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    
+    li{
+    display: inline;
+    padding: 3px;
+    }
+    
+    li a{
+    text-decoration: none;
+    color: rgb(138, 14, 14);}
+    .p2{
+ font-size: 20px;
+ background-color: brown;
+ color: white;
+ text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+width: 100%;
+    }
+
+input[typ=text], select,textarea{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.footer{
+    background-color: brown;
+    padding:70px;
+}
+
+.footer-col{
+    width:25%;
+    padding:0 15px;
+    height: 20%;
+}
+
+.footer-col h6{
+    font-size: 25px;
+    color: pink;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+
+}
+
+.footer-col h6::before{
+content: '';
+position:relative;
+left: 0 ;
+bottom: -10px;
+background-color: green;
+height:1px;
+box-sizing: border-box;
+width: 50px;
+color: white;
+}
+
+.footer-col ul li :not(:lost-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+font-size: 16px;
+text-transform: capitalize;
+color:palevioletred;
+display: block;
+
+}
+
+.footer-col ul li a:hover{
+    color:palevioletred;
+    padding-left: 8px;
+}
+
+.footer-col .social-links{
+
+    display:inline-block;
+    height: 50px;
+    width: 50px;
+    background-color:rgba(34, 184, 121, 0);
+    margin: 0 10px;
+    text-align: center;
+    line-height: 60px;
+    border-radius:50% ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color:blueviolet;
+    background-color: white;
+}
+
+
+.footer-col{
+    width: 25%;
+    padding:0 18px;
+    margin-bottom:50px;
+}
+
+    
+
+    
+
+    

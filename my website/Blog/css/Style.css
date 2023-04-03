@@ -1,0 +1,167 @@
+
+*{
+    margin:0%;
+    padding:0%;
+    }
+
+    .banner{
+        width: 100%;
+        height:100px;
+        background-color: brown;
+    }
+
+    h1{
+        text-align: center;
+        padding: 30px;
+        color: pink;
+
+    }
+
+.logo{
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+    background-color:brown;
+    color: pink;
+    
+}
+
+.menu{
+    text-align: center;
+    width: 1000px;
+    height: 30px;
+    margin: auto;
+    padding: 30px;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 3px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(138,14,14);
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial;
+}
+li a:hover{
+    color: red;
+}
+
+.choco{
+    
+    color:black;
+}
+
+.melon{
+    margin-top: 60px;
+    color:red;
+    font-family: 'Times New Roman', Times, serifj;
+    font-size: 50px;
+    
+}
+
+.men{
+    margin-top: 20px;
+    color: black;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.video{
+    width: 100%;
+    height:600px;
+    margin-top: 40px;
+}
+
+.container{
+    background-color:pink;
+    width:100%;
+    height: 400px;
+}
+footer{
+    background-color: brown;
+    padding:70px;
+}
+
+.footer-col{
+    width:25%;
+    padding:0 15px;
+    height: 20%;
+}
+
+.footer-col h6{
+    font-size: 25px;
+    color: pink;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+
+}
+
+.footer-col h6::before{
+content: '';
+position:relative;
+left: 0 ;
+bottom: -10px;
+background-color: green;
+height:2px;
+box-sizing: border-box;
+width: 50px;
+color: white;
+}
+
+.footer-col ul li :not(:lost-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+font-size: 16px;
+text-transform: capitalize;
+color:brown;
+display: block;
+
+}
+
+.footer-col ul li a:hover{
+    color:pink;
+    padding-left: 8px;
+}
+
+.footer-col .social-links{
+
+    display:inline-block;
+    height: 30px;
+    width: 50px;
+    background-color:brown;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color:blueviolet;
+    background-color: white;
+}
+
+
+.footer-col{
+    width: 25%;
+    padding:0 18px;
+    margin-bottom:50px;
+}
+
+    

@@ -1,0 +1,312 @@
+body{
+background-image: url("images/back.jpg");
+height: 1000px;
+width: 100%;
+}
+
+.banner{
+width: 100%;
+height: 100px;
+background-color: brown;
+}
+
+h1{
+text-align:center;
+padding:30px;
+color: pink;
+
+}
+
+.navbar{
+text-align: center;
+width: 1000px;
+height: 60px;
+margin: auto;
+padding: 60px;
+
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li{
+display: inline;
+padding: 6px;
+}
+
+li a{
+text-decoration: none;
+color: pink;
+font-size: 13px;
+}
+
+.main{
+color:brown;
+font-size: 40px;
+}
+
+.ashy {
+font-size:80px;
+height: 74px;
+width: 94px;
+}
+
+.menu{
+text-align: center;
+width: 1000px;
+height: 30px;
+margin: auto;
+padding: 30px;
+font-size: 30px;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+
+}
+
+li{
+display: inline;
+padding: 3px;
+}
+
+li a{
+text-decoration: none;
+color: rgb(138, 14, 14);
+font-size: 23px;
+font-weight: bold;
+font-family: Arial;
+}
+
+.container{
+    background-color:pink;
+    width:100%;
+    height: 760px;
+}
+
+
+.work{
+    background-color: white;
+    color:rgb(36,52,199);
+    height: 700px;
+    width: 500px;
+    margin: 10px 10px;
+    float: left;
+    
+}
+
+.time{
+    background-color: white;
+    color:rgb(36, 52, 199);
+    height: 700px;
+    width: 500px;
+    margin: 10px 10px;
+    float: left;
+    
+}
+
+
+.wave{
+    background-color: white;
+    color:rgb(36, 52, 199);
+    height: 700px;
+    width: 500px;
+    margin: 10px 10px 10px; 
+    float: left;
+    
+}
+
+.columnheading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+     margin-left: 7px;
+
+    border-style: solid ;
+    color: chartreuse;
+  
+}
+
+p{
+    font-size: 22px;
+    font-family: Arial;
+    text-align: justify;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: black;
+}
+
+h5{
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondpara{
+    position: relative;
+    bottom: -50px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: larger;
+
+}
+
+.happy{
+    height:600px;
+    width:600px;
+    border-color: blue;
+}
+
+.mental{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    float: right;
+}
+
+.banana{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    float:right;
+    position: relative;
+    text-align: center;
+    top: 170px;
+    background-color: beige;
+    height: 300px;
+    width: 500px;
+    margin-right: 300px;
+}
+
+footer{
+    background-color: brown;
+    color: pink;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 80px;
+
+}
+
+.fa{
+    padding:0%;
+    font-size: small;
+    width:0% ;
+    text-align: left;
+    text-decoration: none;
+    margin: auto;
+    border-end-end-radius: 50%;
+}
+
+.media{
+    margin-left: 1100px;
+    margin-top: 15px;
+}
+
+footer*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container2{
+    max-width:1170px;
+    background-color: brown;
+
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: brown;
+    padding:70px;
+}
+
+.footer-col{
+    width:25%;
+    padding:0 15px;
+    height: 20%;
+}
+
+.footer-col h6{
+    font-size: 25px;
+    color: pink;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+
+}
+
+.footer-col h6::before{
+content: '';
+position:relative;
+left: 0 ;
+bottom: -10px;
+background-color: green;
+height:2px;
+box-sizing: border-box;
+width: 50px;
+color: white;
+}
+
+.footer-col ul li :not(:lost-child){
+margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+font-size: 16px;
+text-transform: capitalize;
+color:brown;
+display: block;
+
+}
+
+.footer-col ul li a:hover{
+    color:palevioletred;
+    padding-left: 8px;
+}
+
+.footer-col .social-links{
+
+    display:inline-block;
+    height: 30px;
+    width: 50px;
+    background-color:rgba(34, 184, 121, 0);
+    margin: 0 10px;
+    text-align: center;
+    line-height: 60px;
+    border-radius:50% ;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color:blueviolet;
+    background-color: white;
+}
+
+
+.footer-col{
+    width: 25%;
+    padding:0 18px;
+    margin-bottom:50px;
+}
+
+    
